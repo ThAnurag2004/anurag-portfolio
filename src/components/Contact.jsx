@@ -25,7 +25,7 @@ function Contact() {
             className="my-4">
                 {CONTACT.phoneNo}
             </motion.p>
-            <a href="mailto:anurag@example.com?subject=Hello%20Anurag&body=I%20wanted%20to%20connect%20with%20you." className="border-b">
+            <a href="mailto:anuragsingh04204@gmail.com?subject=Hello%20Anurag&body=I%20wanted%20to%20connect%20with%20you." className="border-b">
                 {CONTACT.email}
             </a>
         </div>
