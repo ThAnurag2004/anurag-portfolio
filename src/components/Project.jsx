@@ -29,9 +29,9 @@ function Project() {
                     initial={{opacity: 0, x: 100}}
                     transition={{duration: 1}}
                     className='w-full max-w-xl lg:w-3/4'>
-                        <h3 className='mb-2 font-semibold text-2xl'>
+                        <a href={project.link} target="_blank"><h3 className='mb-2 font-semibold text-2xl'>
                             {project.title}
-                        </h3>
+                        </h3></a>
                         <p className='mb-4 text-stone-400'>{project.description}</p>
                         {project.technologies.map((tech, index) => (
                             <span className='mr-2  rounded bg-stone-900 p-2 stext-sm font-medium text-stone-300' key={index}>
