@@ -10,6 +10,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
+    link: "#",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
@@ -17,6 +18,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
+    link: "https://anurag-portfolio-five.vercel.app/",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
@@ -24,6 +26,7 @@ export const PROJECTS = [
   },
   {
     title: "Weather App",
+    link: "https://weatherapp-mauve-six.vercel.app/",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
