@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.webp";
 import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project2 from "../assets/projects/project-2.webp";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React, GSAP and FramerMotion, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -19,7 +19,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     link: "https://anurag-portfolio-five.vercel.app/",
-    image: project3,
+    image: project2,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "FramerMotion", "React", "TailwindCSS"],
@@ -27,7 +27,7 @@ export const PROJECTS = [
   {
     title: "Weather App",
     link: "https://weatherapp-mauve-six.vercel.app/",
-    image: project4,
+    image: project3,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["Tailwind CSS", "React", "OpenWeather"],

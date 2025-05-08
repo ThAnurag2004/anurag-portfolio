@@ -9,6 +9,7 @@ import { SiAppwrite } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { animate, motion } from "framer-motion";
 import { IoLogoVercel } from "react-icons/io5";
+import { FaSass } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
     initial: {y: -10},
@@ -106,6 +107,13 @@ function Technologies() {
             variants={iconVariants(4)}
             className="p-4">
                 <IoLogoVercel className="text-7xl"/>
+            </motion.div>
+            <motion.div
+            initial="initial"
+            animate="animate"
+            variants={iconVariants(4)}
+            className="p-4">
+                <FaSass className="text-7xl text-pink-400"/>
             </motion.div>
         </motion.div>
     </div>
