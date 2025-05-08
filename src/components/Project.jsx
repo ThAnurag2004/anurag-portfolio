@@ -22,7 +22,7 @@ function Project() {
                             width={250}
                             height={250}
                             alt={project.title}
-                            className='mb-6 mt-3 rounded-xl' />
+                            className='mb-6 mt-8 rounded-xl' />
                     </motion.div>
                     <motion.div 
                     whileInView={{opacity: 1, x: 0}}
