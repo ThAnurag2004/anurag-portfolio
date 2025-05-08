@@ -30,7 +30,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["Tailwind CSS", "React", "OpenWeather API"],
+    technologies: ["Tailwind CSS", "React", "OpenWeather"],
   },
 ];
 
