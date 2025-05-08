@@ -8,7 +8,7 @@ function WorkSection() {
       whileInView={{opacity: 1, y: 0}}
       initial={{opacity: 0, y: -100}}
       transition={{duration: 0.5}}
-      className='my-20 text-center text-4xl'>Work Experience</motion.h2>
+      className='my-20 text-center text-5xl'>Work Experience</motion.h2>
       <div className='flex justify-center'>
       <FuzzyText 
         baseIntensity={0.2} 

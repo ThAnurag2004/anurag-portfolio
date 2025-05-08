@@ -2,6 +2,7 @@ import logo from "../assets/anurag-logo.webp"
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Navbar() {
   return (
@@ -22,6 +23,10 @@ function Navbar() {
 
                 <a href="https://leetcode.com/u/anuragsingh888/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
                 <SiLeetcode />
+                </a>
+
+                <a href="https://x.com/Anurag888235" target="_blank" rel="noopener noreferrer" aria-label="X">
+                <FaXTwitter />
                 </a>
                 
             </div>
