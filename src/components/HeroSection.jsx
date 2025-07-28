@@ -45,7 +45,7 @@ function HeroSection() {
                     variants={childVariants}
                     className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent'>MERN Stack Developer</motion.span>
                     <motion.p variants={childVariants} className='my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter'>{HERO_CONTENT}</motion.p>
-                    <motion.a variants={childVariants} href="/anurag_resume.pdf" target='_blank' rel='noopener noreferrer' download className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10 ' >
+                    <motion.a variants={childVariants} href="/Anurag_Singh_CSE26.pdf" target='_blank' rel='noopener noreferrer' download className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10 ' >
                         <span className='text-xl'>Download Resume</span>
                     </motion.a>
                 </motion.div>

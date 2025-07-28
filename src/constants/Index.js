@@ -1,7 +1,9 @@
-import project1 from "../assets/projects/project-1.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project4 from "../assets/projects/project-4.webp"
+import project1 from '../assets/projects/project-1.png'
+import project2 from '../assets/projects/project-2.webp'
+import project3 from '../assets/projects/project-3.webp'
+import project4 from '../assets/projects/project-4.webp'
+import project5 from '../assets/projects/project-5.png'
+import project6 from '../assets/projects/project-6.png'
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React, GSAP and FramerMotion, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -10,12 +12,12 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    link: "#",
+    title: "Food Delivery Platform",
+    link: "https://food-delivery-website-nilq1p8us-thanurag2004s-projects.vercel.app/",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A complete react js based frontend project, fully responsive Mobile first design",
+    technologies: ["React","Redux ToolKit","React Icons","Tailwind CSS"],
   },
   {
     title: "Portfolio Website",
@@ -40,6 +42,22 @@ export const PROJECTS = [
     description:
       "A Job searching and job posting platform with role based login for admin and user",
     technologies: ["Tailwind CSS", "React", "Shadcn Ui","Clerk Js", "Supabase"],
+  },
+  {
+    title: "Todo App ",
+    link: "https://todo-list-git-main-thanurag2004s-projects.vercel.app/",
+    image: project5,
+    description:
+      "A Todo App With local Storage",
+    technologies: ["HTML","CSS", "JavaScript" ],
+  },
+  {
+    title: "Typing Guru",
+    link: "https://typing-guru-delta.vercel.app/",
+    image: project6,
+    description:
+      "A Typing Test platform to test your typing speed",
+    technologies: ["HTML","CSS","JavaScript"],
   },
 ];
 
