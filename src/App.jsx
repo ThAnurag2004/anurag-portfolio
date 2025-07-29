@@ -1,5 +1,5 @@
-
 import './App.css'
+import Certificate from './components/Certificate'
 import Contact from './components/Contact'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
@@ -19,6 +19,7 @@ function App() {
         <Navbar />
         <HeroSection />
         <Technologies />
+        <Certificate />
         <Project />
         <WorkSection />
         <Contact />
