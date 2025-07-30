@@ -4,11 +4,11 @@ import { motion } from "framer-motion"
 function Certificate() {
   return (
     <div className='pb-4'>
-        <motion.h2 
+        <motion.h1 
         whileInView={{opacity: 1, y: 0}}
         initial={{opacity: 0, y: -100}}
         transition={{duration: 0.5}}
-        className='my-20 text-center text-5xl'>Certification</motion.h2>
+        className='my-20 text-center text-5xl'>Certification</motion.h1>
         <div>
             {certificate.map((certificate, index) => (
                 <div key={index} className='md-8 flex flex-wrap lg:justify-center'>
