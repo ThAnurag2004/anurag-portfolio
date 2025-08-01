@@ -18,7 +18,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const PROJECTS = [
   {
     title: "Food Delivery Platform",
-    link: "https://food-delivery-website-nilq1p8us-thanurag2004s-projects.vercel.app/",
+    link: "https://food-delivery-website-six-lilac.vercel.app/",
     image: project1,
     description:
       "A complete react js based frontend project, fully responsive Mobile first design",
