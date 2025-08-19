@@ -1,7 +1,7 @@
 import project1 from '../assets/projects/project-1.png'
 import project2 from '../assets/projects/project-2.webp'
 import project3 from '../assets/projects/project-3.webp'
-import project4 from '../assets/projects/project-4.webp'
+import project7 from '../assets/projects/project-7.png'
 import project5 from '../assets/projects/project-5.png'
 import project6 from '../assets/projects/project-6.png'
 import sql from '../assets/certification/sql-certificate.jpg'
@@ -16,6 +16,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 
 export const PROJECTS = [
+  {
+    title: "UIGen",
+    link: "https://uigen-mu.vercel.app/",
+    image: project7,
+    description:
+      "A tool that instantly generates modern, responsive UI components to speed up web development.",
+    technologies: ["React","Gemini"],
+  },
   {
     title: "Food Delivery Platform",
     link: "https://food-delivery-website-nilq1p8us-thanurag2004s-projects.vercel.app/",
